@@ -1,1 +1,26 @@
-/*  your css code here. If applicable */
+img{
+    hight: 300px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+p{
+    font-size: 29px;
+    font-family: 'Arial';
+    color: #b68324;
+    margin: 10px;
+
+}
+h1{
+    font-size: 35px;
+    font-family: 'Arial';
+    color: #b68324;
+    margin: 10px;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-duration: 1s;
+    animation-name: fadeIn;
+    animation-fill-mode: both;
+    
+}
